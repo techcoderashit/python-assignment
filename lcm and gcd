@@ -1,0 +1,19 @@
+X, Y = map(int,input("Enter two no:").split())
+
+print("X=",X)
+print("Y=",Y)
+if X>Y:
+maxvalue=X
+minvalue=Y
+else:
+maxvalue=Y
+minvalue=X
+a=maxvalue
+b=minvalue
+while a%b!=0:
+gcd= a%b
+else:
+gcd= b
+lcm=X*Y//gcd
+print(lcm)
+printf(gcd)
