@@ -1,0 +1,11 @@
+N = int(input())
+total_minutes=0
+for_in range(N):
+SH,SM,Eh,Em=map(int,input().split())
+start_minute=SH*60+SM
+end_minute=EH*60+EM
+time_duration=start_minute-end_minute
+total_minutes+=time_duration
+HH=total_minute//60
+MM=total_minute%60
+print(HH,MM)
