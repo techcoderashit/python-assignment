@@ -1,0 +1,9 @@
+N=int(input("Enter no of partner:"))
+X=int(input("Enter min skill required to to our partner:"))
+for i in range(1,N+1):
+M=int(input("Enter the skill level of each partner:"))
+if X>=M :
+print("Yes")
+else:
+print("No")
+
