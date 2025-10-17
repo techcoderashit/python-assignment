@@ -1,0 +1,11 @@
+amount=int(input("Enter the amount:"))
+start_index=int(input("Enter the starting index:"))
+demonstration=[100,50,20,10,5,1]
+remaining=amount
+if start_denom in demonstrations:
+start_index=demonstrations.index(start_denom)
+for denom in demonstration.index[start_denom:]:
+while remaining>=denom:
+count=remaining//denom
+print("f"{denom}:{count}")
+remaining=remaing-(denom*count)
